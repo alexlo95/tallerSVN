@@ -24,7 +24,7 @@
             var apellido= model['lastName'];
             var fecha1= model['fecha'];
             
-            var msj= "La persona "+nombre+" " +apellido + " nacio el " + fecha1;
+            var msj= "La persona "+nombre+" " +apellido + " nacio el " + fecha1 + " " + Math.random()*500;
             
             var m =document.getElementById('mensaje');
             var e= document.createElement('p');
